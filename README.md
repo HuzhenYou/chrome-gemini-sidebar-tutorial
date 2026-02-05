@@ -1,4 +1,4 @@
-
+# chrome 开启 gemini 侧边栏教程
 
 ### 1. 修改 Chrome 本地配置文件（最关键）
 
@@ -69,7 +69,8 @@ open -a "Google Chrome" --args --force-fieldtrials="GeminiSettings/Enabled/" --l
 
 
 这一步我实现了让gemini侧边栏看起，这说明你的实验性标志位（Flags）已经生效，但服务器端拦截了，即 Google 通过你的 IP 地址、账号区域或浏览器持久化缓存识别到了你在受限地区。
-![[Pasted image 20260205135716.png]]
+<img width="1920" height="1045" alt="Pasted image 20260205135716" src="https://github.com/user-attachments/assets/067b11a3-cae2-4b7b-abe6-fece50978f1b" />
+
 
 接续设置：
 
@@ -122,3 +123,4 @@ Google 会交叉比对你的账号信息：
 
 
 大功告成！！
+
